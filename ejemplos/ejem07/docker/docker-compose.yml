@@ -1,0 +1,54 @@
+services:
+  php7:
+    container_name: php7
+    build: ./php
+    volumes:
+      - ../config/php:/usr/local/etc/php
+      - ../code/myapp:/var/www/html/myapp
+    depends_on:
+      - mariadb
+    networks:
+      - lemp-network
+
+  nginx:
+    container_name: nginx
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ../config/nginx:/etc/nginx/conf.d
+      - ../code/myapp:/var/www/html/myapp
+      - ../logs:/var/log/nginx
+    depends_on:
+      - php7
+    networks:
+      - lemp-network
+
+  mariadb:
+    container_name: mariadb
+    image: mariadb:10.5
+    volumes:
+      - ../mariadb/data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: docker_sample
+    ports:
+      - "3306:3306"
+    networks:
+      - lemp-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin
+    depends_on:
+      - mariadb
+    environment:
+      PMA_HOST: mariadb
+    ports:
+      - "8081:80"
+    networks:
+      - lemp-network
+
+networks:
+  lemp-network:
+    driver: bridge
