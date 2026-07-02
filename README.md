@@ -243,3 +243,9 @@ docker compose up -d
 
 # Ejemplo 1 del index.html
 <img width="1545" height="924" alt="image" src="https://github.com/user-attachments/assets/e9f69a12-b69f-4f2e-9f57-779ce96cdf17" />
+
+#Ejemplo 7 index.php
+<img width="1917" height="965" alt="image" src="https://github.com/user-attachments/assets/8928e61b-2309-4be6-937e-874f68909075" />
+
+#Creacion de Tabla
+<img width="1919" height="959" alt="image" src="https://github.com/user-attachments/assets/3f28ab02-f266-48b9-b9ff-d19af4ca297d" />
