@@ -160,3 +160,9 @@ docker compose up -d
 
 # Creacion de Tabla
 <img width="1919" height="959" alt="image" src="https://github.com/user-attachments/assets/3f28ab02-f266-48b9-b9ff-d19af4ca297d" />
+
+# Site 1 
+<img width="1890" height="950" alt="image" src="https://github.com/user-attachments/assets/b24ee346-b4eb-4e01-9e86-a6818e688bed" />
+
+# Site 2
+<img width="1912" height="946" alt="image" src="https://github.com/user-attachments/assets/c52cf7cc-e8f9-49c2-9e61-318b8daa2d3c" />
