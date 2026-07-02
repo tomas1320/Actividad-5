@@ -240,3 +240,6 @@ docker compose up -d
 
 # Ejemplo 2 Corriendo
 <img width="1914" height="995" alt="image" src="https://github.com/user-attachments/assets/3132437b-ba7a-4543-b7d7-a86b509b60f2" />
+
+# Ejemplo 1 del index.html
+<img width="1545" height="924" alt="image" src="https://github.com/user-attachments/assets/e9f69a12-b69f-4f2e-9f57-779ce96cdf17" />
