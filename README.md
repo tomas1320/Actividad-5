@@ -237,3 +237,6 @@ docker compose up -d
 - Configuración más clara y fácil de mantener.
 - Reduce la cantidad de scripts específicos del sistema operativo.
 - Facilita la reutilización y despliegue del proyecto.
+
+# Ejemplo 2 Corriendo
+<img width="1914" height="995" alt="image" src="https://github.com/user-attachments/assets/3132437b-ba7a-4543-b7d7-a86b509b60f2" />
